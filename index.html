@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="container">
+        <form class="my-form" action="">
+            <div class="number-inputs-box">
+                <input id="min-input" type="number" value="0" class="input number-input">
+                <input id="max-input" type="number" value="10000" class="input number-input">
+            </div>
+
+            <div class="range-slider">
+                <div class="range-slider-status">
+                    <div class="range-slider-progress"></div>
+                </div>
+
+                <div class="range-slider-inputs-box">
+                    <input id="min-range" min="0" max="10000" step="100" value="0"  type="range" class="range-slider-input">
+                    <input id="max-range" min="0" max="10000" step="100" value="10000"  type="range" class="range-slider-input">
+                </div>
+            </div>
+
+            <input class="input submit-input" type="submit">   
+        </form>
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
